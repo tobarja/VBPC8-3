@@ -31,47 +31,54 @@ Partial Class Form1
         'Sentences
         '
         Me.Sentences.FormattingEnabled = True
-        Me.Sentences.Location = New System.Drawing.Point(12, 12)
+        Me.Sentences.ItemHeight = 16
+        Me.Sentences.Location = New System.Drawing.Point(16, 15)
+        Me.Sentences.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Sentences.Name = "Sentences"
-        Me.Sentences.Size = New System.Drawing.Size(470, 173)
+        Me.Sentences.Size = New System.Drawing.Size(625, 212)
         Me.Sentences.TabIndex = 0
         '
         'btnMakeSentence
         '
-        Me.btnMakeSentence.Location = New System.Drawing.Point(12, 191)
+        Me.btnMakeSentence.Location = New System.Drawing.Point(16, 235)
+        Me.btnMakeSentence.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnMakeSentence.Name = "btnMakeSentence"
-        Me.btnMakeSentence.Size = New System.Drawing.Size(124, 35)
+        Me.btnMakeSentence.Size = New System.Drawing.Size(165, 43)
         Me.btnMakeSentence.TabIndex = 1
         Me.btnMakeSentence.Text = "Make Sentence"
         Me.btnMakeSentence.UseVisualStyleBackColor = True
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(142, 191)
+        Me.btnClear.Location = New System.Drawing.Point(189, 235)
+        Me.btnClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(124, 35)
+        Me.btnClear.Size = New System.Drawing.Size(165, 43)
         Me.btnClear.TabIndex = 2
         Me.btnClear.Text = "Clear Sentences"
         Me.btnClear.UseVisualStyleBackColor = True
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(272, 191)
+        Me.btnExit.Location = New System.Drawing.Point(363, 235)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(124, 35)
+        Me.btnExit.Size = New System.Drawing.Size(165, 43)
         Me.btnExit.TabIndex = 3
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(494, 262)
+        Me.ClientSize = New System.Drawing.Size(659, 322)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnMakeSentence)
         Me.Controls.Add(Me.Sentences)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.Text = "Random Sentences"
         Me.ResumeLayout(False)
