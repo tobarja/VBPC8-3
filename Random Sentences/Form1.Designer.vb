@@ -30,12 +30,13 @@ Partial Class Form1
         '
         'Sentences
         '
+        Me.Sentences.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Sentences.FormattingEnabled = True
-        Me.Sentences.ItemHeight = 16
+        Me.Sentences.ItemHeight = 18
         Me.Sentences.Location = New System.Drawing.Point(16, 15)
         Me.Sentences.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Sentences.Name = "Sentences"
-        Me.Sentences.Size = New System.Drawing.Size(625, 212)
+        Me.Sentences.Size = New System.Drawing.Size(512, 202)
         Me.Sentences.TabIndex = 0
         '
         'btnMakeSentence
@@ -72,7 +73,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(659, 322)
+        Me.ClientSize = New System.Drawing.Size(543, 289)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnMakeSentence)
